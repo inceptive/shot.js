@@ -1,0 +1,35 @@
+Shot.js
+
+The Shot.js project is implemented in JavaScript. It implements
+a headless terminal app/web service to render websites to PNG, JPG or PDF
+on the server side. It's a cross-platform app that runs on Windows,
+Linux, Mac OS X. It's Open Source software (New BSD License).
+
+Simply spoken: Shot.js makes screenshots of web sites on the
+server side (headless).
+
+It can be controlled by it's command line interface (CLI)
+or it's restful HTTP webservice. So you can create screenshots of
+e.g. your fancy client side charts.
+
+You can remote-control Shot.js by PHP, Java, PHP, C, [any lanuage]
+using curl, [arbitary HTTP client lib] or executing phantom.js / Shot.js
+by CLI / posix process create.
+
+Call ./phantom Shot.js for a detailed API description.
+
+This project allows you to generate e.g. PDF reports on the server side
+and integrate your fancy client side chart graphics with them.
+
+Attention: Flash or any other third-party plugin is unsupported inside
+of the target website (See phantomjs.org mailing list) in favor of having
+NO bindings to GUI libs (REAL headless).
+
+[REQUIREMENTS]
+
+phantom.js, Version 1.5, see phantomjs.org (Open Source, New BSD License)
+
+[AUTHOR]
+
+Aron Homberg, Inceptive
+info@aron-homberg.de

@@ -1,0 +1,8 @@
+This folder needs to be existing.
+The phantom.js process needs to have proper
+file create & write permissions to save
+rendered images in this folder.
+
+NOTE:
+Rendered images will NOT be deleted / garbage collected
+automatically. You need to do this job by yourself.
